@@ -1,2 +1,13 @@
 ﻿  main.cpp
-  Testing.vcxproj -> C:\C++ course\General Exercises\Testing\Debug\Testing.exe
+C:\c-course\General Exercises\Testing\Testing\main.cpp(45,27): error C2664: 'void std::vector<std::string,std::allocator<std::string>>::push_back(_Ty &&)': cannot convert argument 1 from 'Person' to 'const _Ty &'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\c-course\General Exercises\Testing\Testing\main.cpp(45,27): message : Reason: cannot convert from 'Person' to 'const _Ty'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\c-course\General Exercises\Testing\Testing\main.cpp(45,23): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vector(716,10): message : see declaration of 'std::vector<std::string,std::allocator<std::string>>::push_back'
