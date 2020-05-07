@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\c-course\General Exercises\monster\monster\main.cpp(30): warning C4715: 'getMonsterTypeString': not all control paths return a value
+  monster.vcxproj -> C:\c-course\General Exercises\monster\Debug\monster.exe

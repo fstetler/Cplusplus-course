@@ -1,0 +1,8 @@
+Remove letters in string: nameofstring.erase(startingpoint,length of erase)
+Replace letters in string: nameofstring.substr(startingpoint,length of replace)
+static_cast converts variables to other types
+ 
+
+
+
+
