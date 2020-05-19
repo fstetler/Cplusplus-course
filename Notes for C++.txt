@@ -1,8 +1,23 @@
 Remove letters in string: nameofstring.erase(startingpoint,length of erase)
 Replace letters in string: nameofstring.substr(startingpoint,length of replace)
 static_cast converts variables to other types
- 
+cin.ignore(32767,'\n'); efter en cin för att försäkra om att man inte skriver in fel input i cinen
+if (cin.fail()) {cin.clear(); cin.ignore(32767,'\n');} efter en cin
+sort an array: sort(begin(array), end(array)) där array[] = {40,30,50,10,20} tex
+strlen() ger längden på en string, så "hello" ger 5
+remove_prefix(1) and remove_suffix(2), "Peach" ger each samt Pea
+int *iPtr{}, pointer, pekar till adressen för en variabel. int x{5}, ger pointern int *ptr{&x};
+Använd nullptr ist för 0 för att initiera nollvärde i en pointer, int *ptr{nullptr};
+Ist för att använda forloop kan man räkna med auto numVowels{count_if(begin(name), end(name), isVowel()};
+Dynamically allocated variable pointer, int *ptr{ värde }
 
 
 
 
+Tomat
+Coopkvarg
+krossade tomater
+basilika
+vitlök
+Ansiktskräm med spf
+hårvax?

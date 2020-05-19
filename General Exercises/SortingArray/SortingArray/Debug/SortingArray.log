@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(10,23): error C2672: 'std::size': no matching overloaded function found
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(10,33): error C2893: Failed to specialize function template 'unknown-type std::size(const _Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(2006): message : see declaration of 'std::size'
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(10,33): message : With the following template arguments:
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(10,33): message : '_Container=int []'
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(11,24): error C2672: 'std::size': no matching overloaded function found
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(11,34): error C2893: Failed to specialize function template 'unknown-type std::size(const _Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(2006): message : see declaration of 'std::size'
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(11,34): message : With the following template arguments:
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(11,34): message : '_Container=int []'
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(17,15): error C2059: syntax error: ']'
+C:\c-course\General Exercises\SortingArray\SortingArray\main.cpp(24,21): warning C4018: '<': signed/unsigned mismatch

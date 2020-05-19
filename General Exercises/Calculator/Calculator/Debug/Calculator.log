@@ -1,4 +1,6 @@
 ﻿  main.cpp
+  number.cpp
+  operatorChoice.cpp
   printResult.cpp
   Generating Code...
-  Calculator.vcxproj -> C:\C++ course\General Exercises\Calculator\Debug\Calculator.exe
+  Calculator.vcxproj -> C:\c-course\General Exercises\Calculator\Debug\Calculator.exe

@@ -3,47 +3,45 @@
 using namespace std;
 
 double heightOfTower() {
-	cout << "Enter the height of the tower (in meters): " << "\n";
-	double height{};
-	cin >> height;
-	return height;
+	while (true) {	
+		cout << "Enter the height of the tower (in meters): " << "\n";
+		double height{};
+		cin >> height;
+
+		// Incorrect type of input? Handle it!
+		if (cin.fail()) {
+			cin.clear();
+			cin.ignore(32767, '\n');
+			cout << "Oops, wrong type of input, try again! " << "\n";
+		}
+		else {
+			cin.ignore(32767, '\n');
+			return height;
+		}
+	}
 }
 
 constexpr double g() {
-	constexpr double g{ 9.8 };
+	constexpr double g{ 9.8 }; // constant gravity never changes
 	return g;
 }
 
-double heightCalculator(double g, int seconds) {
-	double height1{ g * pow(seconds,2) / 2 };
-	return height1;
+double secondsCalculator(double g, int height) {
+	//double height{ g * pow(seconds,2) / 2 };
+	double seconds{ sqrt(2 * height / g) };
+	return seconds;
 }
 
-
-void printResult(double height, double heightCalculator, int seconds) {
-	if ((height - heightCalculator) >= 0)
-		cout << "At " << seconds << ", the ball is at height " << height - heightCalculator << "\n";
-	else
-		cout << "At " << seconds << ", the ball is on the ground." << "\n";
+void printResult(double seconds) {
+	cout << "It takes " << seconds << " seconds for the ball to reach the floor. " << "\n";
 }
 
 int main() {
 
 	double heightTower{ heightOfTower() };
+	double seconds{ secondsCalculator(g(), heightTower )};
 
-	double height0Calculator{ heightCalculator(g(), 0) };
-	double height1Calculator{ heightCalculator(g(), 1) };
-	double height2Calculator{ heightCalculator(g(), 2) };
-	double height3Calculator{ heightCalculator(g(), 3) };
-	double height4Calculator{ heightCalculator(g(), 4) };
-	double height5Calculator{ heightCalculator(g(), 5) };
-
-	printResult(heightTower, height0Calculator, 0);
-	printResult(heightTower, height1Calculator, 1);
-	printResult(heightTower, height2Calculator, 2);
-	printResult(heightTower, height3Calculator, 3);
-	printResult(heightTower, height4Calculator, 4);
-	printResult(heightTower, height5Calculator, 5);
+	printResult(seconds);
 
 	return 0;
 }
