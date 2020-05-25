@@ -9,15 +9,18 @@ remove_prefix(1) and remove_suffix(2), "Peach" ger each samt Pea
 int *iPtr{}, pointer, pekar till adressen för en variabel. int x{5}, ger pointern int *ptr{&x};
 Använd nullptr ist för 0 för att initiera nollvärde i en pointer, int *ptr{nullptr};
 Ist för att använda forloop kan man räkna med auto numVowels{count_if(begin(name), end(name), isVowel()};
-Dynamically allocated variable pointer, int *ptr{ värde }
+Dynamically allocated variable pointer, int *ptr{ värde }, där värde är new int{7}, dvs int *ptr{ new int {7} };
+När deleta dynamically allocated array, använd delete[] istället för delete
+Initialize a dynamic array: int* array{new int[5] {9, 7, 5, 3, 1} };
+Referencevariabel refererar till en annan variabel, int x{5}, int &ref{x}; Ger ut samma värde som x, bara en spegling. Ändrar man ref ändrar man x, så ref = 7 ger x = 7. Referencer kan inte reassignas
+Struct är en samling variabler, som kan hämtas genom Struct Person{int age; double weight}; Person person; person.age = 5;
+Skapa en array genom #include<array>, sen array myArray{1,2,3,4,5} defaultar till längd 5 type int. array myArray{7.5, 2.5} till längd 2 double osv 
+vector<int> myVector {1,2,3,4,5}; Eller vector<int> myVector(5) för att skapa en tom 5-längdvektor
+Find value in array: auto found{find(arr.begin(), arr.end(), search)}; där search är int värdet man letar efter. Skriva över värdet: *found = replace där replace är int värdet
+Sortera en array: vector<Student> student(studentAmount); sort(student.begin(), student.end(), compareStudent) där compareStudent är function(const Student& a, const Student& b) med return a.grade > b.grade
 
 
 
 
-Tomat
-Coopkvarg
-krossade tomater
-basilika
-vitlök
-Ansiktskräm med spf
-hårvax?
+
+

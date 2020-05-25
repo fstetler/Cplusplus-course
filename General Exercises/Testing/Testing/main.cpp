@@ -1,12 +1,16 @@
 #include<iostream>
+#include<algorithm>
+#include<limits>
+#include<string>
+#include<array>
+#include<vector>
+#include<iterator>
+#include<numeric>
 using namespace std;
+
 
 int main() {
 	
-	int x{ 7 };
-	int* ptr{ new int };
-	ptr = &x;
-	cout << *ptr;
 	return 0;
 }
 

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\c-course\General Exercises\printCardValues\printCardValues\main.cpp(108,21): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\printCardValues\printCardValues\main.cpp(109,22): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\printCardValues\printCardValues\main.cpp(120,21): warning C4018: '<': signed/unsigned mismatch
+  printCardValues.vcxproj -> C:\c-course\General Exercises\printCardValues\Debug\printCardValues.exe
