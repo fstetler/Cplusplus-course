@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\c-course\General Exercises\insertValueInVector\insertValueInVector\main.cpp(16,21): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\insertValueInVector\insertValueInVector\main.cpp(23,21): warning C4018: '<': signed/unsigned mismatch
+  insertValueInVector.vcxproj -> C:\c-course\General Exercises\insertValueInVector\Debug\insertValueInVector.exe
