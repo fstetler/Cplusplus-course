@@ -1,2 +1,6 @@
 ﻿  main.cpp
-C:\c-course\General Exercises\Codewars\Codewars\main.cpp(54,39): error C2397: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\c-course\General Exercises\Codewars\Codewars\main.cpp(15,24): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\Codewars\Codewars\main.cpp(18,28): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\Codewars\Codewars\main.cpp(26,24): warning C4018: '<': signed/unsigned mismatch
+C:\c-course\General Exercises\Codewars\Codewars\main.cpp(28,28): warning C4018: '<': signed/unsigned mismatch
+  Codewars.vcxproj -> C:\c-course\General Exercises\Codewars\Debug\Codewars.exe

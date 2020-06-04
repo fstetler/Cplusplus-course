@@ -1,25 +1,22 @@
-#include<iostream>
-#include<algorithm>
-#include<limits>
-#include<string>
-#include<array>
-#include<vector>
-#include<iterator>
-#include<numeric>
-#include<list>
+#include <algorithm>
+#include <array>
+#include <cassert>
+#include <ctime>
+#include <iostream>
+#include <random>
+
 using namespace std;
 
+struct Person {
+	int age;
+	int height;
+	string name;
+};
 
 int main() {
 
-	return 0;
+
+
+return 0;
+
 }
-
-
-
-
-
-
-
-
-

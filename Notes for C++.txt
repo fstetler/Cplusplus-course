@@ -24,6 +24,10 @@ Skapa vector med 5 nollor: vector<int> myVector{0,0,0,0,0};
 längd av vector : myVec.size()
 myVector.push_back(4) lägger en 4 längst bak i vektorn
 myVector.insert(myVector.begin()+n, value), n = platsen där värdet ska in, value är värdet
+Constructor: i en class så initierar man funktionen Fraction(){ansätter värden för variablerna} i publicdelen
+Destructors: börjar med ett ~. Förstör funktionen
+"Member function" är en funktion som har sin definition inne i classen
+ 
 
 
 
