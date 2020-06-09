@@ -7,15 +7,8 @@
 
 using namespace std;
 
-struct Person {
-	int age;
-	int height;
-	string name;
-};
 
 int main() {
-
-
 
 return 0;
 
